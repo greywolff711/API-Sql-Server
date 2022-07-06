@@ -24,4 +24,4 @@ router.use((request,response,next)=>{
 
 var port = process.env.PORT || 8090;
 app.listen(port);
-console.log('Order API is runnning at ' + port);
+console.log('USERS API is runnning at ' + port);
